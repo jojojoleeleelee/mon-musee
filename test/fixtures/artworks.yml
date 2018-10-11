@@ -1,0 +1,25 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  slug: MyString
+  category: MyString
+  medium: MyString
+  date: 1
+  thumbnail: MyString
+  genre: MyString
+  url: MyString
+  artist: MyString
+  similar: MyString
+
+two:
+  title: MyString
+  slug: MyString
+  category: MyString
+  medium: MyString
+  date: 1
+  thumbnail: MyString
+  genre: MyString
+  url: MyString
+  artist: MyString
+  similar: MyString
