@@ -8,12 +8,12 @@ export const Navbar = () => {
       <div className="nav-wrapper">
         <Link to="/" className="brand-logo left">&nabla;&spades;&nabla;   M O N - M U S E E</Link>
         <ul id="nav-mobile" className="right hide-on-med-and-down">
-          <li><Link to="/artworks/search" exact="true">Search Art</Link></li>
-          <li><Link to="/artworks" exact="true">All Art</Link></li>
-          <li><Link to="/artworks/random" exact="true">Random Art</Link></li>
-          <li><Link to="/artists/search" exact="true">Search Artists</Link></li>
-          <li><Link to="/artists" exact="true">All Artists</Link></li>
-          <li><Link to="/about" exact="true">About</Link></li>
+          <li><Link to="/artworks/search" exact="true">Search &spades;rt</Link></li>
+          <li><Link to="/artworks" exact="true">&spades;ll &spades;rt</Link></li>
+          <li><Link to="/artworks/random" exact="true">Random &spades;rt</Link></li>
+          <li><Link to="/artists/search" exact="true">Search &spades;rtists</Link></li>
+          <li><Link to="/artists" exact="true">&spades;ll &spades;rtists</Link></li>
+          <li><Link to="/about" exact="true">&spades;bout</Link></li>
         </ul>
       </div>
     </nav>

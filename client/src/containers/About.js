@@ -22,7 +22,7 @@ class About extends React.Component {
               <br />
               <br /><br />
               <br /><br />
-              <h5>Powered by Artsy &trade;</h5>
+              <h5>&spades; Powered by Artsy &trade;&spades;</h5>
 
               <br /><br />
               <br /><br />
