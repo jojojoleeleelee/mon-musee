@@ -5,6 +5,8 @@ import { Navbar } from './components/Navbar'
 import { Footer } from './components/Footer'
 
 import Home from './containers/Home'
+import ArtIndex from './containers/ArtIndex'
+import ArtShow from './containers/ArtShow'
 import About from './containers/About'
 
 class App extends Component {
@@ -17,6 +19,8 @@ class App extends Component {
          <div className="col s-12">
          <Switch>
            <Route exact path ="/" component={Home} />
+           <Route exact path ="/art" component={ArtIndex} />
+           <Route exact path ="/art/:id" component={Home} />
            <Route exact path='/about' component={About} />
          </Switch>
          </div>
