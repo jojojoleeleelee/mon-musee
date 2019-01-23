@@ -7,6 +7,7 @@ import { Footer } from './components/Footer'
 import Home from './containers/Home'
 import ArtIndex from './containers/ArtIndex'
 import ArtShow from './containers/ArtShow'
+import ArtRandom from './containers/ArtRandom'
 import About from './containers/About'
 
 class App extends Component {
@@ -20,7 +21,8 @@ class App extends Component {
          <Switch>
            <Route exact path ="/" component={Home} />
            <Route exact path ="/art" component={ArtIndex} />
-           <Route exact path ="/art/:id" component={Home} />
+           <Route exact path ="/art/random" component={ArtRandom} />
+           <Route exact path ="/art/:id" component={ArtShow} />
            <Route exact path='/about' component={About} />
          </Switch>
          </div>

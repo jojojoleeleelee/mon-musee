@@ -6,13 +6,13 @@ import Art from '../components/Art';
 
 class ArtShow extends React.Component {
   componentDidMount() {
-    this.props.loadArt(this.props.match.params.id)
+    
   }
 
   render() {
     return (
       <div>
-      {this.props.art.art !== '' ? <Art key={this.props.art.id} index={this.props.art.id} art={this.props.art} /> : null }
+      <h1>Individual Art</h1>
       </div>
     )
   }

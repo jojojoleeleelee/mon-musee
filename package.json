@@ -1,5 +1,8 @@
 {
   "name": "mon-musee",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "@material-ui/core": "^3.9.0",
+    "styled-components": "^4.1.3"
+  }
 }
