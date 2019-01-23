@@ -6,8 +6,6 @@ import { bindActionCreators } from 'redux';
 import styled from 'styled-components';
 import Typography from '@material-ui/core/Typography';
 
-const APIURL = `https://api.artsy.net/api/`
-
 class ArtIndex extends Component {
 
   static propTypes = {
